@@ -1,0 +1,6 @@
+docker build -t manoz3896/week8 .
+docker run -p 5050:3000 manoz3896/week8
+docker ps
+docker exec -it <ImageId> /bin/bash
+docker push manoz3896/week8
+docker rmi manoz3896/week8
